@@ -24,6 +24,10 @@ header {
     align-content: center;
 }
 
+header h3 {
+    margin-bottom: 26px;
+}
+
 nav {
     height: 50%;
 }
@@ -57,7 +61,7 @@ main {
     background-image: url(../images/portada.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    height: 475px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -73,11 +77,6 @@ main div {
     align-content: space-around;
     justify-content: space-around;
     flex-direction: column;
-    }
-
-div img {
-    height: 50%;
-    width: 50%px;
     }
 
 
@@ -96,7 +95,7 @@ div img {
 }
 
 .container {
-    margin-top: 250px;
+    margin-top: 300px;
     opacity: 1;
     display:flex;
 }
