@@ -54,11 +54,11 @@ p {
 }
 
 main {
-    background-image: url(../images/img-mission-background.jpg);
-    background-size: 1200px 700px;
+    background-image: url(../images/portada.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
-    width: 1200px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,10 +76,11 @@ main div {
     }
 
 div img {
-    height: 200px;
-    width: 300px;
-    margin-top: 20px;
-}
+    height: 50%;
+    width: 50%px;
+    }
+
+
 
 #images {
     display: flex;
@@ -95,7 +96,9 @@ div img {
 }
 
 .container {
+    margin-top: 250px;
     opacity: 1;
+    display:flex;
 }
 
 #location {
