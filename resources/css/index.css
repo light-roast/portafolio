@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,300&family=Ubuntu:wght@300&display=swap');
+
 * {
-    background-color: black;
-    font-family: Helvetica, sans-serif;
+    background-color: rgb(4, 17, 3);
+    font-family: 'PT Sans', sans-serif;
     color: seashell;
     opacity: 0.9;
     text-align: center;
@@ -34,8 +37,10 @@ nav {
 a {
     color: seashell;
     font-size: 1.3em;
-    text-decoration: underline;
     margin: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid #fff;
+    border-radius: 50px;
 }
 
 h2 {
@@ -95,6 +100,8 @@ main div {
 }
 
 #projects {
+    background-color: white;
+    opacity: 1;
     margin-bottom: 65px;
     margin-left: auto;
     margin-right: auto;
@@ -110,7 +117,20 @@ main div {
 
 #projects div {
     flex-basis: 49%;
+    background-color: white;
+    opacity: 1;
     
+    
+}
+
+.cont a {
+    color: rgb(4, 17, 3);
+    background-color: #fff;
+}
+
+.cont h4 {
+    color: rgb(4, 17, 3);
+    background-color: #fff;
 }
 
 .container {
@@ -123,17 +143,10 @@ main div {
 
 #skills {
     width: 100%;
-    
     flex-wrap: wrap;
     align-content: center;
+    margin-top: -3%;
 }
-
-#skills h2 {
-    width: 100%;
-    background-color: transparent;
-    margin-bottom: 20;
-    }
-
 
 
 #skills img {
@@ -152,12 +165,8 @@ main div {
     width: 100%;
 }
 
-#final {
-    height: 200px;
-    margin: 0 auto;
-}
 
-#final h5 {
+#skills h5 {
     margin-top: 40px;
 }
 
@@ -171,3 +180,12 @@ li {
     text-align: center;
     display: table;
 }
+
+a:link { text-decoration: none;}
+
+a:visited { text-decoration: none; }
+
+a:hover {color: rgb(33, 131, 26);}
+
+.cont a:hover, .cont h4:hover {
+    color: rgb(23, 71, 20);
