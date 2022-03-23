@@ -143,7 +143,7 @@ main div {
 
 #skills div {
     width: 100%;
-    background-color: #c0c0c0;
+    background-color: #fff;
     margin: 0 auto;
 }
 
@@ -164,4 +164,10 @@ main div {
 footer h5 {
     text-align: left;
     margin-left: 20px;
+}
+
+li {
+    margin: 0 auto;
+    text-align: center;
+    display: table;
 }
