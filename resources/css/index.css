@@ -122,15 +122,9 @@ main div {
 }
 
 #skills {
-    height: 500px;
-    width: 1200px;
-    background-image: url(../images/img-locations-background.jpg);
-    margin: 0 auto;
-    background-size: 1200px 700px;
-    background-repeat: no-repeat;
-    display: flex;
+    width: 100%;
+    
     flex-wrap: wrap;
-    justify-content: space-around;
     align-content: center;
 }
 
@@ -142,17 +136,15 @@ main div {
 
 
 
-#skills div {
-    flex-basis: 300px;
-    opacity: 1;
-    margin-top: 15px;
+#skills img {
+    
+    margin: 0 auto;
 }
 
-.con {
-    display: flex;
-    justify-content: space-around;
-    align-content: space-around;
-    flex-direction: column;
+#skills div {
+    width: 100%;
+    background-color: #c0c0c0;
+    margin: 0 auto;
 }
 
 .cont {
