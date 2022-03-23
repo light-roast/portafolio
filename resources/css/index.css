@@ -24,6 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    margin-bottom: 2%;
 }
 
 header h3 {
@@ -114,7 +115,6 @@ main div {
 }
 
 
-
 #projects div {
     flex-basis: 49%;
     background-color: white;
@@ -126,11 +126,13 @@ main div {
 .cont a {
     color: rgb(4, 17, 3);
     background-color: #fff;
+    opacity: 1;
 }
 
 .cont h4 {
     color: rgb(4, 17, 3);
     background-color: #fff;
+    opacity: 1;
 }
 
 .container {
@@ -143,6 +145,7 @@ main div {
 
 #skills {
     width: 100%;
+    display:flexbox;
     flex-wrap: wrap;
     align-content: center;
     margin-top: -3%;
@@ -150,19 +153,25 @@ main div {
 
 
 #skills img {
-    
+    width: 80%;
     margin: 0 auto;
 }
 
 #skills div {
-    width: 100%;
+    width: 80%;
     background-color: #fff;
     margin: 0 auto;
+    
 }
 
 .cont {
     height: auto;
     width: 100%;
+    opacity: 1;
+}
+
+.cont img {
+    opacity: 1;
 }
 
 
@@ -188,4 +197,13 @@ a:visited { text-decoration: none; }
 a:hover {color: rgb(33, 131, 26);}
 
 .cont a:hover, .cont h4:hover {
-    color: rgb(23, 71, 20);
+    color: rgb(23, 71, 20); }
+
+#upp {
+    border: none;
+    
+}
+
+#up {
+    opacity: 1;
+}
