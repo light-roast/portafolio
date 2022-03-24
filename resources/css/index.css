@@ -10,6 +10,12 @@
     font-size: 16px
 }
 
+em {
+    font-style: normal;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
 #up {
     width: auto;
     height: 50px;
@@ -153,12 +159,12 @@ main div {
 
 
 #skills img {
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
 }
 
 #skills div {
-    width: 80%;
+    width: 65%;
     background-color: #fff;
     margin: 0 auto;
     
